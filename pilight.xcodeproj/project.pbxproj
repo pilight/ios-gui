@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B4CEAB417FB62F500933E86 /* NSDictionaryHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CEAB317FB62F500933E86 /* NSDictionaryHelper.m */; };
+		5B4CEAB717FCC45A00933E86 /* SwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CEAB617FCC45A00933E86 /* SwitchCell.m */; };
+		5BA6D0B617FA289200DFAB63 /* PilightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA6D0B517FA289200DFAB63 /* PilightController.m */; };
 		5BAF010A17FA146800D7B634 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAF010917FA146800D7B634 /* Foundation.framework */; };
 		5BAF010C17FA146800D7B634 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAF010B17FA146800D7B634 /* CoreGraphics.framework */; };
 		5BAF010E17FA146800D7B634 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAF010D17FA146800D7B634 /* UIKit.framework */; };
@@ -19,6 +22,14 @@
 		5BAF012517FA146800D7B634 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAF010D17FA146800D7B634 /* UIKit.framework */; };
 		5BAF012D17FA146800D7B634 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BAF012B17FA146800D7B634 /* InfoPlist.strings */; };
 		5BAF012F17FA146800D7B634 /* pilightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF012E17FA146800D7B634 /* pilightTests.m */; };
+		5BAF013B17FA19B300D7B634 /* SwitchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF013917FA19B300D7B634 /* SwitchesViewController.m */; };
+		5BAF013C17FA19B300D7B634 /* SwitchesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BAF013A17FA19B300D7B634 /* SwitchesViewController.xib */; };
+		5BAF013F17FA1D5000D7B634 /* LoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF013E17FA1D5000D7B634 /* LoadViewController.m */; };
+		5BAF014217FA1D8300D7B634 /* LoadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BAF014117FA1D8300D7B634 /* LoadViewController.xib */; };
+		5BC209D617FE1F7A007C4188 /* DimmerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC209D517FE1F7A007C4188 /* DimmerCell.m */; };
+		5BC209DA17FE2B7E007C4188 /* PLRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC209D917FE2B7E007C4188 /* PLRoom.m */; };
+		5BC209DD17FE2B8F007C4188 /* PLSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC209DC17FE2B8F007C4188 /* PLSwitch.m */; };
+		EBB89164CD46426C9D5187CE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A53357C5E7546FA9BA9907F /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A53357C5E7546FA9BA9907F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1F288AC4A74DE9AA43E047 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		5B4CEAB217FB62F500933E86 /* NSDictionaryHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryHelper.h; sourceTree = "<group>"; };
+		5B4CEAB317FB62F500933E86 /* NSDictionaryHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryHelper.m; sourceTree = "<group>"; };
+		5B4CEAB517FCC45A00933E86 /* SwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchCell.h; sourceTree = "<group>"; };
+		5B4CEAB617FCC45A00933E86 /* SwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchCell.m; sourceTree = "<group>"; };
+		5BA6D0B417FA289200DFAB63 /* PilightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PilightController.h; sourceTree = "<group>"; };
+		5BA6D0B517FA289200DFAB63 /* PilightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PilightController.m; sourceTree = "<group>"; };
 		5BAF010617FA146800D7B634 /* pilight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pilight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BAF010917FA146800D7B634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5BAF010B17FA146800D7B634 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +67,18 @@
 		5BAF012A17FA146800D7B634 /* pilightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pilightTests-Info.plist"; sourceTree = "<group>"; };
 		5BAF012C17FA146800D7B634 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BAF012E17FA146800D7B634 /* pilightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pilightTests.m; sourceTree = "<group>"; };
+		5BAF013817FA19B300D7B634 /* SwitchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchesViewController.h; sourceTree = "<group>"; };
+		5BAF013917FA19B300D7B634 /* SwitchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchesViewController.m; sourceTree = "<group>"; };
+		5BAF013A17FA19B300D7B634 /* SwitchesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchesViewController.xib; sourceTree = "<group>"; };
+		5BAF013D17FA1D5000D7B634 /* LoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadViewController.h; sourceTree = "<group>"; };
+		5BAF013E17FA1D5000D7B634 /* LoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadViewController.m; sourceTree = "<group>"; };
+		5BAF014117FA1D8300D7B634 /* LoadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadViewController.xib; sourceTree = "<group>"; };
+		5BC209D417FE1F7A007C4188 /* DimmerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DimmerCell.h; sourceTree = "<group>"; };
+		5BC209D517FE1F7A007C4188 /* DimmerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DimmerCell.m; sourceTree = "<group>"; };
+		5BC209D817FE2B7E007C4188 /* PLRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLRoom.h; sourceTree = "<group>"; };
+		5BC209D917FE2B7E007C4188 /* PLRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLRoom.m; sourceTree = "<group>"; };
+		5BC209DB17FE2B8F007C4188 /* PLSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSwitch.h; sourceTree = "<group>"; };
+		5BC209DC17FE2B8F007C4188 /* PLSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSwitch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,7 @@
 				5BAF010C17FA146800D7B634 /* CoreGraphics.framework in Frameworks */,
 				5BAF010E17FA146800D7B634 /* UIKit.framework in Frameworks */,
 				5BAF010A17FA146800D7B634 /* Foundation.framework in Frameworks */,
+				EBB89164CD46426C9D5187CE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +113,7 @@
 				5BAF012817FA146800D7B634 /* pilightTests */,
 				5BAF010817FA146800D7B634 /* Frameworks */,
 				5BAF010717FA146800D7B634 /* Products */,
+				1C1F288AC4A74DE9AA43E047 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +133,7 @@
 				5BAF010B17FA146800D7B634 /* CoreGraphics.framework */,
 				5BAF010D17FA146800D7B634 /* UIKit.framework */,
 				5BAF012217FA146800D7B634 /* XCTest.framework */,
+				1A53357C5E7546FA9BA9907F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,8 +141,12 @@
 		5BAF010F17FA146800D7B634 /* pilight */ = {
 			isa = PBXGroup;
 			children = (
+				5BC209D717FE2B37007C4188 /* models */,
+				5BAF014017FA1D5500D7B634 /* views */,
 				5BAF011817FA146800D7B634 /* AppDelegate.h */,
 				5BAF011917FA146800D7B634 /* AppDelegate.m */,
+				5BA6D0B417FA289200DFAB63 /* PilightController.h */,
+				5BA6D0B517FA289200DFAB63 /* PilightController.m */,
 				5BAF011B17FA146800D7B634 /* Images.xcassets */,
 				5BAF011017FA146800D7B634 /* Supporting Files */,
 			);
@@ -122,6 +160,8 @@
 				5BAF011217FA146800D7B634 /* InfoPlist.strings */,
 				5BAF011517FA146800D7B634 /* main.m */,
 				5BAF011717FA146800D7B634 /* pilight-Prefix.pch */,
+				5B4CEAB217FB62F500933E86 /* NSDictionaryHelper.h */,
+				5B4CEAB317FB62F500933E86 /* NSDictionaryHelper.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -144,6 +184,50 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5BAF014017FA1D5500D7B634 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				5BAF014317FA1DB300D7B634 /* LoadView */,
+				5BAF014417FA1DCF00D7B634 /* SwitchesView */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		5BAF014317FA1DB300D7B634 /* LoadView */ = {
+			isa = PBXGroup;
+			children = (
+				5BAF013D17FA1D5000D7B634 /* LoadViewController.h */,
+				5BAF013E17FA1D5000D7B634 /* LoadViewController.m */,
+				5BAF014117FA1D8300D7B634 /* LoadViewController.xib */,
+			);
+			name = LoadView;
+			sourceTree = "<group>";
+		};
+		5BAF014417FA1DCF00D7B634 /* SwitchesView */ = {
+			isa = PBXGroup;
+			children = (
+				5BAF013817FA19B300D7B634 /* SwitchesViewController.h */,
+				5BAF013917FA19B300D7B634 /* SwitchesViewController.m */,
+				5BAF013A17FA19B300D7B634 /* SwitchesViewController.xib */,
+				5B4CEAB517FCC45A00933E86 /* SwitchCell.h */,
+				5B4CEAB617FCC45A00933E86 /* SwitchCell.m */,
+				5BC209D417FE1F7A007C4188 /* DimmerCell.h */,
+				5BC209D517FE1F7A007C4188 /* DimmerCell.m */,
+			);
+			name = SwitchesView;
+			sourceTree = "<group>";
+		};
+		5BC209D717FE2B37007C4188 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				5BC209D817FE2B7E007C4188 /* PLRoom.h */,
+				5BC209D917FE2B7E007C4188 /* PLRoom.m */,
+				5BC209DB17FE2B8F007C4188 /* PLSwitch.h */,
+				5BC209DC17FE2B8F007C4188 /* PLSwitch.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BAF013217FA146800D7B634 /* Build configuration list for PBXNativeTarget "pilight" */;
 			buildPhases = (
+				3516BFBC92254D5DBBBE6B81 /* Check Pods Manifest.lock */,
 				5BAF010217FA146800D7B634 /* Sources */,
 				5BAF010317FA146800D7B634 /* Frameworks */,
 				5BAF010417FA146800D7B634 /* Resources */,
+				6CA7EE5E72BB45938835D52D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,7 +305,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BAF013C17FA19B300D7B634 /* SwitchesViewController.xib in Resources */,
 				5BAF011417FA146800D7B634 /* InfoPlist.strings in Resources */,
+				5BAF014217FA1D8300D7B634 /* LoadViewController.xib in Resources */,
 				5BAF011C17FA146800D7B634 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,13 +322,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3516BFBC92254D5DBBBE6B81 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		6CA7EE5E72BB45938835D52D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BAF010217FA146800D7B634 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA6D0B617FA289200DFAB63 /* PilightController.m in Sources */,
 				5BAF011A17FA146800D7B634 /* AppDelegate.m in Sources */,
 				5BAF011617FA146800D7B634 /* main.m in Sources */,
+				5B4CEAB717FCC45A00933E86 /* SwitchCell.m in Sources */,
+				5BAF013F17FA1D5000D7B634 /* LoadViewController.m in Sources */,
+				5BC209D617FE1F7A007C4188 /* DimmerCell.m in Sources */,
+				5B4CEAB417FB62F500933E86 /* NSDictionaryHelper.m in Sources */,
+				5BC209DA17FE2B7E007C4188 /* PLRoom.m in Sources */,
+				5BAF013B17FA19B300D7B634 /* SwitchesViewController.m in Sources */,
+				5BC209DD17FE2B8F007C4188 /* PLSwitch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +483,7 @@
 		};
 		5BAF013317FA146800D7B634 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1F288AC4A74DE9AA43E047 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -369,6 +497,7 @@
 		};
 		5BAF013417FA146800D7B634 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1F288AC4A74DE9AA43E047 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -441,6 +570,7 @@
 				5BAF013417FA146800D7B634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BAF013517FA146800D7B634 /* Build configuration list for PBXNativeTarget "pilightTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +579,7 @@
 				5BAF013717FA146800D7B634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

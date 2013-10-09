@@ -14,3 +14,11 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#ifndef PILIGHT
+    #define PILIGHT
+    #import "PLRoom.h"
+    #import "PLSwitch.h"
+    #import "PilightController.h"
+    #import "NSDictionaryHelper.h"
+#endif
